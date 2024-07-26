@@ -18,7 +18,6 @@ var (
 	DirInfo  map[int]string // 储存目录名
 
 	err            error
-	filePath       string // 储存文件路径
 	activeFilePath string // 储存当前选中的文件路径
 	activeDirPath  string // 储存当前选中的目录路径
 )
